@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=DynaPuff:wght@400..700&display=swap');
+
+$font-family-one: Amatic SC;
+$font-family-two: DynaPuff;
+
+.text-one {
+    font-family: $font-family-one;
+}
+
+.text-two {
+    font-family: $font-family-two;
+}
