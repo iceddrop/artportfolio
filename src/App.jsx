@@ -1,12 +1,17 @@
 
+import { Route, Routes } from 'react-router-dom'
 import Homepage from './pages/Homepage/Homepage'
+import ArtGrid from './pages/Homepage/PageOverview/ArtGrid'
 
 function App() {
   
 
   return (
     <>
-      <Homepage/>
+      <Routes>
+        <Route path="/" element={<Homepage/>}/>
+        <Route path="/ArtGrid" element={<ArtGrid/>}/>
+      </Routes>
     </>
   )
 }

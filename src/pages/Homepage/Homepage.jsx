@@ -9,6 +9,7 @@ import "./Homepage.scss";
 // import required modules
 import { Parallax, Pagination, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Link } from "react-router-dom";
 
 const Homepage = () => {
   return (
@@ -33,13 +34,16 @@ const Homepage = () => {
           <div
             slot="container-start"
             className="parallax-bg"
+          
+            data-swiper-parallax="-23%"
+          ></div>
+          <SwiperSlide
             style={{
               "background-image":
                 "url(https://cdn.pixabay.com/photo/2019/02/14/07/28/painting-3995999_1280.jpg)",
             }}
-            data-swiper-parallax="-23%"
-          ></div>
-          <SwiperSlide>
+          >
+            <Link to="/ArtGrid">
             <div className="title" data-swiper-parallax="-300">
             <h5 className='text-font-title font-black'>ARTWORKs</h5>
             </div>
@@ -51,23 +55,38 @@ const Homepage = () => {
                 Click here to see my artworks
               </p>
             </div>
+            </Link>
           </SwiperSlide>
-          <SwiperSlide>
+          
+          <SwiperSlide
+            style={{
+              "background-image":
+                "url(https://cdn.pixabay.com/photo/2024/05/26/11/17/headphones-8788569_1280.jpg)",
+            }}
+          >
+            <Link to="/ArtGrid">
             <div className="title" data-swiper-parallax="-300">
-              <h5 className="text-font-title-two">SKETCHES & ROUGHWORKS</h5>
+              <h5 className="text-font-title-two text-black">SKETCHES & ROUGHWORKS</h5>
             </div>
             {/* <div className="subtitle" data-swiper-parallax="-200">
               Subtitle
             </div> */}
             <div className="text" data-swiper-parallax="-100">
-              <p className="text-font-four text-lg">
+              <p className="text-font-four text-lg text-black font-extrabold">
                 Click here to see what i do with my free time
               </p>
             </div>
+            </Link>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide
+            style={{
+              "background-image":
+                "url(https://cdn.pixabay.com/photo/2017/11/20/02/00/fantasy-2964231_1280.jpg)",
+            }}
+          >
+            <Link to="/ArtGrid">
             <div className="title" data-swiper-parallax="-300">
-              <h5 className='text-font-title-three'>DiIGITAL PAINTINGS</h5>
+              <h5 className='text-font-title-three'>DIGITAL PAINTINGS</h5>
             </div>
             {/* <div className="subtitle" data-swiper-parallax="-200">
               Subtitle
@@ -77,6 +96,7 @@ const Homepage = () => {
                 Click here to see my digital paintings
               </p>
             </div>
+            </Link>
           </SwiperSlide>
         </Swiper>
       </main>

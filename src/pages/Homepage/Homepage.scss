@@ -76,3 +76,10 @@ body {
 .text-font-four{
     font-family: $font-family-four;
 }
+
+@media only screen and (max-width: 550px) {
+.mobile-height{
+   height: 280px;
+}
+
+}

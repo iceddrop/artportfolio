@@ -1,6 +1,7 @@
 import { Navbar, Dropdown } from "flowbite-react";
 import "./Navbar.scss";
 import { RiInstagramFill, RiTwitterXFill } from "react-icons/ri";
+import { Link } from "react-router-dom";
 
 const Navbarcomp = () => {
   return (
@@ -13,17 +14,17 @@ const Navbarcomp = () => {
       <Navbar.Toggle/>
       <Navbar.Collapse>
         <Navbar active>
-          <Dropdown className="text-one" label="PORTFOLIO" inline>
-            <Dropdown.Item className="text-two">ORIGINAL ART</Dropdown.Item>
-            <Dropdown.Item className="text-two">ROUGH WORK</Dropdown.Item>
-            <Dropdown.Item className="text-two">CLIENT WORK</Dropdown.Item>
-            <Dropdown.Item className="text-two">ANIMATION</Dropdown.Item>
+        <Dropdown label="PORTFOLIO" inline>
+            <Dropdown.Item className="text-two"><Link to="/ArtGrid">ORIGINAL ART</Link></Dropdown.Item>
+            <Dropdown.Item className="text-two"><Link to="/ArtGrid">ROUGH WORK</Link></Dropdown.Item>
+            <Dropdown.Item className="text-two"><Link to="/ArtGrid">CLIENT WORK</Link></Dropdown.Item>
+            <Dropdown.Item className="text-two"><Link to="/ArtGrid">ANIMATION</Link></Dropdown.Item>
           </Dropdown>
         </Navbar>
         <Navbar>
-          <Dropdown label="RESOURCES" inline>
-            <Dropdown.Item className="text-two">FREE BRUSHES</Dropdown.Item>
-            <Dropdown.Item className="text-two">TUTORIALS</Dropdown.Item>
+        <Dropdown label="RESOURCES" inline>
+            <Dropdown.Item className="text-two"><Link to="/ArtGrid">FREE BRUSHES</Link></Dropdown.Item>
+            <Dropdown.Item className="text-two"><Link to="/ArtGrid">TUTORIALS</Link></Dropdown.Item>
           </Dropdown>
         </Navbar>
         <Navbar.Link className='md:mt-2 lg:mt-0'>ABOUT</Navbar.Link>
