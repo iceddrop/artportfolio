@@ -1,11 +1,10 @@
 
-import { Route, Routes } from 'react-router-dom'
+import { Route, Router, Routes } from 'react-router-dom'
 import Homepage from './pages/Homepage/Homepage'
 import ArtGrid from './pages/Homepage/PageOverview/ArtGrid'
 
 function App() {
   
-
   return (
     <>
       <Routes>
@@ -16,4 +15,4 @@ function App() {
   )
 }
 
-export default App
+export default App;

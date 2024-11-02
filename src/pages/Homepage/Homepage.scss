@@ -107,6 +107,10 @@ body {
   opacity: 1; /* Fade in on hover */
 }
 
+.container:hover .icon{
+  opacity: 1; /* Fade in on hover */
+}
+
 @media only screen and (max-width: 550px) {
 .mobile-height{
    height: 280px;

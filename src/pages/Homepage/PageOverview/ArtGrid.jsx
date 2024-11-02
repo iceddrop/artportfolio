@@ -25,8 +25,8 @@ const ArtGrid = () => {
                 PIXAY BABE
               </h6>
               <div className="absolute w-full h-full bg-gray-500 inset-0 sliced-div overlay">
-                <FaChevronRight className="absolute bottom-2 text-4xl text-white" />
               </div>
+              <FaChevronRight className="icon absolute bottom-2 text-4xl text-white opacity-0" />
             </div>
             <div
               style={{
@@ -39,8 +39,8 @@ const ArtGrid = () => {
                 PIXAY BABE
               </h6>
               <div className="absolute w-full h-full bg-gray-500 inset-0 sliced-div overlay">
-                <FaChevronRight className="absolute bottom-2 text-4xl text-white" />
               </div>
+              <FaChevronRight className="icon absolute bottom-2 text-4xl text-white opacity-0" />
             </div>
             <div
               style={{
@@ -54,8 +54,8 @@ const ArtGrid = () => {
                 PIXAY BABE
               </h6>
               <div className="absolute w-full h-full bg-gray-500  inset-0 sliced-div overlay">
-                <FaChevronRight className="absolute bottom-2 text-4xl text-white" />
               </div>
+              <FaChevronRight className="icon absolute bottom-2 text-4xl text-white opacity-0" />
             </div>
             <div
               style={{
@@ -69,8 +69,8 @@ const ArtGrid = () => {
                 PIXAY BABE
               </h6>
               <div className="absolute w-full h-full bg-gray-500  inset-0 sliced-div overlay">
-                <FaChevronRight className="absolute bottom-2 text-4xl text-white" />
               </div>
+              <FaChevronRight className="icon absolute bottom-2 text-4xl text-white opacity-0" />
             </div>
             <div
               style={{
@@ -84,8 +84,8 @@ const ArtGrid = () => {
                 PIXAY BABE
               </h6>
               <div className="absolute w-full h-full bg-gray-500  inset-0 sliced-div overlay">
-                <FaChevronRight className="absolute bottom-2 text-4xl text-white" />
               </div>
+              <FaChevronRight className="icon absolute bottom-2 text-4xl text-white opacity-0" />
             </div>
             <div
               style={{
@@ -99,8 +99,8 @@ const ArtGrid = () => {
                 PIXAY BABE
               </h6>
               <div className="absolute w-full h-full bg-gray-500  inset-0 sliced-div overlay">
-                <FaChevronRight className="absolute bottom-2 text-4xl text-white" />
               </div>
+              <FaChevronRight className="icon absolute bottom-2 text-4xl text-white opacity-0" />
             </div>
             <div
               style={{
@@ -114,8 +114,8 @@ const ArtGrid = () => {
                 PIXAY BABE
               </h6>
               <div className="absolute w-full h-full bg-gray-500  inset-0 sliced-div overlay">
-                <FaChevronRight className="absolute bottom-2 text-4xl text-white" />
               </div>
+              <FaChevronRight className="icon absolute bottom-2 text-4xl text-white opacity-0" />
             </div>
             <div
               style={{
@@ -129,8 +129,8 @@ const ArtGrid = () => {
                 PIXAY BABE
               </h6>
               <div className="absolute w-full h-full bg-gray-500  inset-0 sliced-div overlay">
-                <FaChevronRight className="absolute bottom-2 text-4xl text-white" />
               </div>
+              <FaChevronRight className="icon absolute bottom-2 text-4xl text-white opacity-0" />
             </div>
             <div
               style={{
@@ -144,8 +144,8 @@ const ArtGrid = () => {
                 PIXAY BABE
               </h6>
               <div className="absolute w-full h-full bg-gray-500  inset-0 sliced-div overlay">
-                <FaChevronRight className="absolute bottom-2 text-4xl text-white" />
               </div>
+              <FaChevronRight className="icon absolute bottom-2 text-4xl text-white opacity-0" />
             </div>
             <div
               style={{
@@ -159,8 +159,8 @@ const ArtGrid = () => {
                 PIXAY BABE
               </h6>
               <div className="absolute w-full h-full bg-gray-500  inset-0 sliced-div overlay">
-                <FaChevronRight className="absolute bottom-2 text-4xl text-white" />
               </div>
+              <FaChevronRight className="icon absolute bottom-2 text-4xl text-white opacity-0" />
             </div>
           </div>
         </div>

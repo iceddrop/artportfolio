@@ -17,7 +17,7 @@ const Sidebar = () => {
       <ul className="flex flex-col items-center justify-around h-64 mt-10">
         <li>
           <Dropdown label="PORTFOLIO" inline>
-            <Dropdown.Item className="text-two"><Link to="/ArtGrid">ORIGINAL ART</Link></Dropdown.Item>
+            <Dropdown.Item className="text-two"><Link to="/">ORIGINAL ART</Link></Dropdown.Item>
             <Dropdown.Item className="text-two"><Link to="/ArtGrid">ROUGH WORK</Link></Dropdown.Item>
             <Dropdown.Item className="text-two"><Link to="/ArtGrid">CLIENT WORK</Link></Dropdown.Item>
             <Dropdown.Item className="text-two"><Link to="/ArtGrid">ANIMATION</Link></Dropdown.Item>
